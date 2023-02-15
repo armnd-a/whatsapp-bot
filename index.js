@@ -6,10 +6,10 @@ const figlet = require('figlet')
 const fs = require('fs-extra')
 const ms = require('parse-ms')
 const HandleMsg = require('./HandleMsg')
-const StickerMetadata = { author: 'made with luv', pack: '@thoriqazzikraa', keepScale: true }
+const StickerMetadata = { author: 'Sticker @armand', pack: '087823406145', keepScale: true }
 const errorpicture = 'https://i.ibb.co/fxY3Hbp/Whats-App-Image-2021-11-24-at-15-39-01.jpg'
 const uaOverride = process.env.UserAgent
-const botnum = '6289520360716@c.us'
+const botnum = '6287823406145@c.us'
 
 const sleep = async (ms) => {
 	return new Promise(resolve => setTimeout(resolve, ms))
